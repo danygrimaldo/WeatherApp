@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="Assets/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2fafc9ac12.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+
+</head>
+
+<body style="font-family: Poppins;">
+    <header class="main p-5 bg-dark text-light text-center">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container-fluid p-4 d-flex">
+        <!-- // left Column search box -->
+        <aside class="col-3 my-4">
+            <form id="city-search" class="container-fluid">
+                <input type="text" id="city-input" placeholder="Search for a city">
+                <button id="search" type="submit" class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <!-- //city list -->
+            <div id="city-buttons" class="col-12">
+                <ul class="list-group-flush list-group col-8 left">
+                    <li class="list-group-item"><button type="button" class="btn">Austin</button></li>
+                    <li class="list-group-item"><button type="button" class="btn">Chicago</button></li>
+                    <li class="list-group-item"><button type="button" class="btn">New York</button></li>
+                    <li class="list-group-item"><button type="button" class="btn">Orlando</button></li>
+                    <li class="list-group-item"><button type="button" class="btn">San Francisco</button>
+                    </li>
+                    <li class="list-group-item"><button type="button" class="btn">Seattle</button></li>
+                    <li class="list-group-item"><button type="button" class="btn">Denver</button></li>
+                    <li class="list-group-item"><button type="button" class="btn">Atlanta</button></li>
+                </ul>
+            </div>
+        </aside>
+        <!-- Weather Display -->
+        <div class="col-9 px-4">
+            <div id="current" class="p-4 my-4 border border-dark">
+            </div>
+
+            <!-- 5day Forecast Display -->
+            <div id="fiveDay" class="p-4">
+                <h4>5-Day Forecast</h4>
+
+                <div class="col-12">
+                    <div class="card-group container-fluid">
+                        <!-- 1 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+
+                        <!-- 5 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="Assets/script.js"></script>
+<script type="text/javascript"></script>
+
+</html>

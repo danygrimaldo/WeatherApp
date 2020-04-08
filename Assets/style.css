@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    border-bottom: 10px black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.main {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+}
+
+.center {
+    display: block;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.left {
+    display: block;
+    padding-left: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.fiveDay {
+    
+}
