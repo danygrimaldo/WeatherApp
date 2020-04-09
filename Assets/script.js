@@ -14,9 +14,6 @@ $(document).ready(function () {
 
         //set variables for ajax calls
         var city = $("#city-input").val();
-        var humidity = $("response.list.main.humidity").val();
-        //var humidity = $("list.main.humidity")val();
-        //console.log(humidity)
 
         var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=5e3399442721ca6af10df2ddf94e0a89";
 
@@ -29,7 +26,7 @@ $(document).ready(function () {
 
                 $("#current").append(`
                 <h1>${city}</h1>
-                    <ul>${humidity}</ul>
+                    <ul>Humidity: </ul>
                     <ul>Wind Speed: </ul>
                     <ul>UV Index: </ul>
                     `);
