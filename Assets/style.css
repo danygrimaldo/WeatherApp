@@ -31,9 +31,6 @@ nav ul {
     text-align: left;
 }
 
-.fiveDay {
-    display: block;
-    background-color: dodgerblue;
-    color: white;
-    padding: 2px;
+.five-day {
+    padding-left: 1.1rem;
 }
